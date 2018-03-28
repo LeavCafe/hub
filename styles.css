@@ -1,21 +1,22 @@
 body {
     width: 100%;
     height: 100%;
-    background: rgb(48, 48, 48);
+    background: #f1e5d4;
     font-family: monospace;
-    color: #fff;
+    color: #bb7b44;
 }
 
 a, a:hover {
-    color: #fff;
+    color: #bb7b44;
+	font-weight: bold;
 }
 
 .cover {
-    background-color: rgba(48,48,48,1);
-    background-position-y: bottom;
+    background-color: #f1e5d4;
+    background-position-y: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(images/background.png);
+    background-image: url(images/background.jpg);
     height: 25%;
     width: 100%;
     position: relative;
@@ -32,7 +33,7 @@ a, a:hover {
 }
 
 .cover-gradient {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 90%, rgba(48,48,48,1));
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 90%, #f1e5d4);
     height: 100%;
     width: 100%;
     position: absolute;
@@ -71,7 +72,8 @@ a, a:hover {
 }
 
 .link-item a:active {
-    background-color: #464545;
+    background-color: #e3c6a6;
+	color: inherit;
 }
 
 .link-text, .arrow {
