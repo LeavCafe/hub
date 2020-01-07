@@ -56,6 +56,13 @@ a, a:hover {
     }
 }
 
+.section-title h4 {
+	background-color: #fecfad;
+    line-height: 35px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
 .link-item {
     overflow: hidden;
     margin-top: 15px;
