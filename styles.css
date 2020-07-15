@@ -83,6 +83,10 @@ a, a:hover {
 	color: inherit;
 }
 
+.link-item.inactive img {
+	filter: grayscale(0.7);
+}
+
 .link-text, .arrow {
     display: table;
     height: 100%;
@@ -91,6 +95,10 @@ a, a:hover {
 .link-text span, .arrow span {
     display: table-cell;
     vertical-align: middle;
+}
+
+.inactive .link-text span, .inactive .arrow span {
+	color: #90847a;
 }
 
 .footer {
