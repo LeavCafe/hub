@@ -16,7 +16,7 @@ a, a:hover {
     background-position-y: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(images/background.jpg);
+    background-image: url(images/background.png);
     height: 25%;
     width: 100%;
     position: relative;
@@ -57,10 +57,25 @@ a, a:hover {
 }
 
 .section-title h4 {
-	background-color: #fecfad;
     line-height: 35px;
-    border-radius: 10px;
-    font-weight: bold;
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section-title h4:before,
+.section-title h4:after {
+    content: '';
+    border-top: 1px solid;
+    margin: 0 20px 0 0;
+    flex: 1 0 20px;
+}
+
+.section-title h4:after {
+    margin: 0 0 0 20px;
 }
 
 .link-item {
